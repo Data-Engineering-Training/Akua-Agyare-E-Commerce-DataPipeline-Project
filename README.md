@@ -40,15 +40,15 @@ the third dataset contains deliveries data, including Task_ID, Order_ID, Relatio
 
 ## Requirements -
 
-### Data Extraction and transformation-
+### Data Extraction and transformation:
 All data from the two markets were extracted from their respective formats using pandas. Each data was read using pandas and various preprocessing and transformation tasks undertaken to prepare the data for ingestion.
-The 'ETLfile.ipynb' jupyter notebook provides the step-by-step processes taken in extracting data from the various sources and transformation processes.
+The 'ETLfile.py' python script provides the step-by-step processes taken in extracting data from the various sources and transformation processes.
 
-### Data Ingestion-
+### Data Ingestion:
 The `ingestion.py` script demonstrates how to each transformed data is ingest the integrated data into the respective database created. Follow the instructions in the script for your specific requirement.
 There are aslo sql files contained in this repository to demonstrate how to run the database schemas.
 
-### Hanadling Schema evolutions-
+### Hanadling Schema evolution:
 - Handle schema evolution scenarios, where the data schema may change over time.
 
 ### Incremental Updates:
