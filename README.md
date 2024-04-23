@@ -6,7 +6,7 @@
 1. Overview of Data Pipeline Solution
 2. Description of datasets
 3. Requirements
-4. Method
+4. Processes:
    a. Data Extraction
    b. Data Ingestion
    c. Schema evolution
@@ -40,7 +40,9 @@ the third dataset contains deliveries data, including Task_ID, Order_ID, Relatio
 
 ## Requirements -
 
-### Data Extraction and transformation:
+## Processes-
+
+### Data Extraction and preprocessing:
 All data from the two markets were extracted from their respective formats using pandas. Each data was read using pandas and various preprocessing and transformation tasks undertaken to prepare the data for ingestion.
 The 'ETLfile.py' python script provides the step-by-step processes taken in extracting data from the various sources and transformation processes.
 
